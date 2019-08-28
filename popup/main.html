@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>c0x0.com Add-On</title>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+ <script src="../js/clipboard.js"></script>
+ <style>
+  body {
+    height: 100%;
+    width: 400px;
+    background-color: #FFFFFF;
+  }
+  .footer {
+    left: 0;
+    padding-top: 15px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+ }
+ </style>
+</head>
+<!-- #FFCC00 -->
+<body>
+
+<!-- Main Containter -->
+<div id="container" class="text-center p-2 m-2">
+  <div>
+    <small class="mb-2">we keep your email private</small><br>
+    <img src="../img/c0x0_logo.png" alt="c0x0.com Logo" />
+  </div>
+  <hr>
+  <!-- Main content of the extension -->
+  <div id="maincontent">
+    <div>
+      <span class="text-monospace text-info" id="scopedomain"></span>
+    </div>
+
+    <script src="main.js"></script>
+  </div>
+  <!-- End content -->
+</div>
+<!-- End of Main Container -->
+<div class="footer small">
+  <a href="https://web.c0x0.com/shield/main.php">Manage Your Aliases</a><br>
+  <canvas id="statusline" width="120" height="2" style="border:0px;"></canvas>
+  <span id="apistatus"></span>
+</div>
+</body>
+</html>
