@@ -84,7 +84,7 @@ async function createAlias(jwtoken, domainScope, aliasName) {
     aliasName = "Unnamed";
     console.log("User did not provided description for new alias");
   }
-  document.getElementById("maincontent").innerHTML = "<h5 class=\"text-success\">New Alias Have Been Created</h5>";
+  document.getElementById("maincontent").innerHTML = "<h5 class=\"\">New alias created!</h5>";
 
   /* Copy Input */
   var parentElement = document.getElementById('maincontent');
